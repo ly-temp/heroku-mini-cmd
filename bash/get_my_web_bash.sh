@@ -6,4 +6,6 @@ wget https://raw.githubusercontent.com/laiyuantemp/my_bash/main/scan_html_LY.sh
 wget https://raw.githubusercontent.com/laiyuantemp/my_bash/main/downloader_pausable_LY.sh
 wget https://raw.githubusercontent.com/laiyuantemp/my_bash/main/web3storage_LY.sh
 wget https://raw.githubusercontent.com/laiyuantemp/my_bash/main/web3storage_syncfolder_LY.sh
+
+wget https://github.com/laiyuantemp/static-binaries/raw/master/binaries/linux/x86_64/nano
 chmod +x ./*
