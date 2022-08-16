@@ -1,0 +1,12 @@
+{
+  "name": "VPS",
+  "description": "HEROKU VPS",
+  "repository": "",
+  "logo": "",
+  "keywords": ["VPS", "HEROKU", "Free", "Firefox", "novnc", "VNC", "anycloud", "cloud-downloader", "rclone-backdoor", "index-backdoor", "rclone", "index"],
+
+  "website": "",
+  "repository": "",
+  "stack": "heroku-22"
+ }
+
