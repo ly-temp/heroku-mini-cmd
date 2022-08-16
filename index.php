@@ -23,3 +23,5 @@ socat file:`tty`,raw,echo=0 tcp-listen:[port]
   <input type="text" placeholder="port" name="port">
   <button type="submit">submit</button>
 </form>
+<br><br>
+<a href="/init.php">get my bash scripts</a>
