@@ -11,5 +11,5 @@
   <button type="submit">submit</button>
 </form>
 <br>
-<a href="/cmd_noblock.php">cmd no block</a>
+<a href="/cmd_noblock.php">cmd no block</a><br>
 <a href="/log.txt">log file</a>
