@@ -7,6 +7,7 @@
 </pre>
 <form action="/">
   <input type="text" placeholder="command">
+  <button type="submit">submit</button>
 </form>
 <br>
 <a href="/cmd_noblock.php">cmd no block</a>
