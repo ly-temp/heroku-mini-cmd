@@ -12,4 +12,12 @@
 </pre>
 <br>
 <a href="/cmd_noblock.php">cmd no block</a><br>
-<a href="/log.txt">log file</a>
+<a href="/log.txt">log file</a><br>
+
+
+conn socat:
+<form action="/socat.php">
+  <input type="text" placeholder="host" name="host">
+  <input type="text" placeholder="port" name="port">
+  <button type="submit">submit</button>
+</form>
