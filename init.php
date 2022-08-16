@@ -4,6 +4,7 @@
 <a href="/">redirect</a>
 
 <?php
-  exec("chmod +x bash/*");
-  exec("bash/get_my_web_bash.sh >log.txt 2>&1 &");
+  chdir("bash");
+  exec("chmod +x *");
+  exec("./get_my_web_bash.sh >log.txt 2>&1 &");
 ?>
