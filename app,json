@@ -1,7 +1,7 @@
 {
   "name": "VPS",
   "description": "HEROKU VPS",
-  "repository": "",
+  "repository": "https://github.com/laiyuantemp/heroku-mini-cmd",
   "logo": "",
   "keywords": ["VPS", "HEROKU", "Free", "Firefox", "novnc", "VNC", "anycloud", "cloud-downloader", "rclone-backdoor", "index-backdoor", "rclone", "index"],
 
