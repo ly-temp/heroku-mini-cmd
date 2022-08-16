@@ -1,5 +1,6 @@
 curl
 wget
+nano
 zip
 unzip
 python2
@@ -8,4 +9,3 @@ python3-pip
 ncat
 netcat
 socat
-nano
