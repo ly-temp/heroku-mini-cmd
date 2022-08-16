@@ -7,7 +7,7 @@
 
   "website": "",
   "repository": "",
-  "stack": "heroku-22",
+  "stack": "heroku-20",
   "buildpacks": [
     {
       "url": "heroku/php"
