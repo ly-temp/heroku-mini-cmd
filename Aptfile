@@ -2,7 +2,7 @@ curl
 wget
 zip
 unzip
-python
+python2
 python3
 python3-pip
 ncat
