@@ -1,0 +1,5 @@
+services:
+  # A Docker web service
+  - type: web
+    name: vps
+    plan: free
