@@ -7,7 +7,7 @@
 ?>
 </pre>
 <form action="/">
-  <input type="text" placeholder="command">
+  <input type="text" placeholder="command" name=" ">
   <button type="submit">submit</button>
 </form>
 <br>
