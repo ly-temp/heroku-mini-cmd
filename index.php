@@ -14,8 +14,10 @@
 <a href="/cmd_noblock.php">cmd no block</a><br>
 <a href="/log.txt">log file</a><br>
 
-
-conn socat:
+conn socat:<br>
+<pre>
+socat file:`tty`,raw,echo=0 tcp-listen:[port]
+</pre>
 <form action="/socat.php">
   <input type="text" placeholder="host" name="host">
   <input type="text" placeholder="port" name="port">
