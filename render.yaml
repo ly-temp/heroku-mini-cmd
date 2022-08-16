@@ -2,5 +2,5 @@ services:
   # A Docker web service
   - type: web
     name: vps
-    env: static
+    env: php
     plan: free
