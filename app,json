@@ -7,6 +7,14 @@
 
   "website": "",
   "repository": "",
-  "stack": "heroku-22"
+  "stack": "heroku-22",
+  "buildpacks": [
+    {
+      "url": "heroku/php"
+    },
+    {
+      "url": "https://github.com/laiyuantemp/heroku-buildpack-apt"
+    }
+  ]    
  }
 
