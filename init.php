@@ -6,5 +6,5 @@
 <?php
   chdir("bash");
   exec("chmod +x *");
-  exec("./get_my_web_bash.sh >log.txt 2>&1 &");
+  exec("./get_my_web_bash.sh >../log.txt 2>&1 &");
 ?>
