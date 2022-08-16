@@ -8,5 +8,5 @@
   <button type="submit">submit</button>
 </form>
 <br>
-<a href="/">cmd block</a>
+<a href="/">cmd block</a></a>
 <a href="/log.txt">log file</a>
