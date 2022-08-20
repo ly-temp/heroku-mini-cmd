@@ -25,6 +25,7 @@ socat file:`tty`,raw,echo=0 tcp-listen:[port]
   <button type="submit">submit</button>
 </form>
 <br>
+ncat
 <form action="/nc_bash.php">
   <input type="text" placeholder="host" name="host">
   <input type="text" placeholder="port" name="port">
