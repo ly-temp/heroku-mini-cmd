@@ -13,4 +13,5 @@ wget https://raw.githubusercontent.com/ly-temp/my_bash/main/fileio.sh
 
 wget https://github.com/ly-temp/static-binaries/raw/master/binaries/linux/x86_64/nano
 wget https://github.com/ly-temp/static-binaries/raw/master/binaries/linux/x86_64/socat
+wget https://github.com/ly-temp/static-binaries/raw/master/binaries/linux/x86_64/ncat
 chmod +x ./*
